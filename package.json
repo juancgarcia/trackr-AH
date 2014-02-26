@@ -1,0 +1,27 @@
+ {
+  "author":      "juancgarcia <juangarcia.info@gmail.com>",
+  "name":        "trackr",
+  "description": "Simple stat tracking, regurgitation, and visualization web app/api",
+  "version":     "0.0.1",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "actionhero": "7.6.1",
+    "mongoose":      "latest",
+    "passport":      "latest",
+    "passport-local":      "latest",
+    "passport-google":      "latest"
+  },
+  "devDependencies": {
+    "mocha":  "latest",
+    "should": "latest"
+  },
+  "scripts": {
+    "help":         "actionhero help",
+    "start":        "actionhero start",
+    "actionhero":   "actionhero",
+    "startCluster": "actionhero startCluster",
+    "test":         "mocha"
+  }
+}
